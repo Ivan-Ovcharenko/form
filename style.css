@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+margin: 0 auto;
+padding: 0;
+width: 1280px;
+height: 1040px;
+background: #1976D5;
+}
+header{
+    background: #C1C1C1;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+nav{
+    width: 1000px;
+    height: 75px;
+    background: #EB1E63;
+    margin: 20px auto;
+}
+.con{
+    display: flex;
+    
+}
+  aside{
+        justify-content: flex-start;
+        width: 360px;
+        height: 600px;
+        background: #3A3E47;
+        margin: 0px 20px 20px auto;
+  }
+  .figure{
+    width: 320px;
+    height: 480px;
+    background: #637B8B;
+    margin: 10px 20px 10px 20px;
+  }
+  .img{
+    width: 280px;
+    height: 350px;
+    background: #85D32C;
+    position: absolute;
+    margin: 10px 20px 30px 20px;
+  }
+
+  main{
+        justify-content: flex-end;
+        width: 620px;
+        height: 600px;
+        background: #6BB01A;
+        margin: 0px auto 20px 0;
+  }
+  section{
+    width: 580px;
+    height: 235px;
+    background: #FFC10A;
+    margin: 10px 20px 20px 20px;
+    position: relative;
+  }
+
+  .titleSection-h1{
+    position: absolute;
+    left: 190px;
+    left: 140px;
+    top: 80px;
+  }
+
+  article{
+    width: 580px;
+    height: 235px;
+    background: #FF800A;
+    margin: 0px 20px 20px 20px;
+  }
+  footer{
+    width: 1000px;
+    height: 150px;
+    background: #000000;
+    margin: 0 auto;
+  }
+  h1{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+  }
+  .titleLH{
+    margin: 0;
+    /* text-align: center;
+    font-size: 70px; */
+    line-height: 150px;
+  }
+  .titleArticle{
+    line-height: 235px;
+  }
+ .titleSection{
+    line-height: 235px;
+ }
+
+  button{
+    width: 200px;
+    height: 50px;
+    background: #4176FF;
+    position: absolute;
+    left: 190px;
+    top: 185px;
+  }
+  p{
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0px;
+  }
